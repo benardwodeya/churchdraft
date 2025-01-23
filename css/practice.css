@@ -1,0 +1,323 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Oswald:wght@500&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Italianno&family=Oswald:wght@500&display=swap');
+
+
+/**  body  **/
+
+body {
+    margin: 0%;
+    padding: 0px;
+    background-color: #ffffff;
+    font-family: "Oswald", serif;
+}
+
+
+
+
+
+
+
+
+/**  header  **/
+
+header {
+    position: fixed;
+    top: 0%;
+    width: 100%;
+    z-index: 1;
+}
+
+nav {
+    background-color: #ffffff;
+    height: 142px;
+    border-top: 1px solid rgb(219, 219, 235);
+}
+
+#logo {
+    width: 150px;
+    margin-left: 20px;
+}
+
+nav ul {
+    margin-left: 550px;
+    margin-top: -90px;
+}
+
+nav ul li {
+    display: inline;
+    padding: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #2c3e50;
+    text-transform: uppercase;
+    font-weight: 580;
+    box-shadow: 0px 0px 30px -10px rgba(0, 0, 0, 0.5);
+    padding: 4px;
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+nav ul li a:hover {
+    color: #00a6ed;
+}
+
+#giving {
+    border-radius: 10px;
+    padding: 5px;
+    color: #ffffff;
+    background-color: rgb(123, 151, 202);
+}
+
+#giving:hover {
+    background-color: ;
+}
+
+#search {
+    text-decoration: none;
+    font-size: 20px;
+    float: right;
+    margin-top: -100px;
+    margin-right: 20px;
+    color: #a0c1c6;
+}
+
+
+
+#wrapper {
+    margin-top: 150px;
+    background-color: #ececec;
+}
+
+
+
+
+
+/** hero section **/
+
+#hero {
+    /**height: 100lvh;
+    background-color: antiquewhite;
+
+    background-image: url(../images/background.png);
+    background-size: cover; **/
+    margin: auto;
+    height: 450px;
+
+    background-color: #8395a8;
+}
+
+
+
+#hero hgroup {
+    -webkit-text-stroke: 0px black;
+    text-shadow: 3px 3px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    color: #ffffff;
+}
+
+#hero h1 {
+    font-size: 50px;
+    text-transform: uppercase;
+    margin-left: 20px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+#hero h2 {
+    text-align: center;
+    font-size: 40px;
+    text-shadow: 4px 4px 4px #070707;
+}
+
+#hero h3 {
+    color: #ffffff;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: -50px;
+    padding-top: 30px;
+    /** font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; **/
+    
+
+    font-family: initial;
+    font-weight: 500;
+    font-style: initial;
+    text-shadow: 4px 4px 4px #070707;
+
+}
+
+
+
+.message {
+    width: 260px;
+    margin: auto;
+}
+
+#hero p {
+    font-size: 20px;
+    font-family: "Oswald", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    color: #ffffff;
+}
+
+#cta {
+    border: 1px solid #ffffff;
+    border-radius: 50px;
+    text-decoration: none;
+    padding: 10px 40px 10px 40px;
+    font-size: 20px;
+    margin-left: 33px;
+    color: #ffffff;
+}
+
+
+
+
+/** about **/
+
+#about {
+    margin-top: 40px;
+    background-color: #ececec;
+}
+
+
+.about1 {
+    margin-left: 100px;
+    float: left;
+}
+
+#main-h2 {
+
+    font-size: 50px;
+    color: #8395a8;
+    font-weight: 700;
+    margin-top: 0px;
+}
+
+.pastor {
+    border: 1px solid #a0c1c6;
+    padding: 10px;
+    width: 450px;
+    text-align: center;
+    box-shadow: 0px 10px 20px 5px rgba(0, 0, 0, 0.5);
+
+}
+
+.pastor img {
+    width: 400px;
+}
+
+.about2 {
+    width: 400px;
+    margin-left: 55%;
+    border: 1px solid #a0c1c6;
+    padding-left: 40px;
+    padding-right: 40px;
+    box-shadow: 0px 10px 20px 5px rgba(0, 0, 0, 0.5);
+}
+
+.about2 h2 {
+    margin-left: 50px;
+    font-size: 30px;
+    color: #8395a8;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+#church-history {
+    margin-top: -20px;
+    word-spacing: 4px;
+    line-height: 30px;
+    color: #585553;
+}
+
+
+
+.vision-mission {
+    text-align: center;
+    margin-top: 25px;
+}
+
+.vision-mission article {
+    width: 195px;
+}
+
+.vision-mission h4 {
+    font-size: 30px;
+    margin: 0%;
+    color: #8395a8;
+    font-weight: 700;
+}
+
+.vision-mission p {
+    color: #585553;
+    line-height: 30px;
+}
+
+.vision {
+    float: left;
+    position: absolute;
+    margin-left: -20px;
+}
+
+.mission {
+    margin-left: 200px;
+}
+
+
+
+
+
+
+
+
+
+/** ministries **/
+
+#ministries-section {
+    font-family: Arial, sans-serif;
+    margin-top: 40px;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+.ministries {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px; 
+    height: 400px;
+}
+
+.heading {
+    text-align: center;
+    background-color: #8395a8;
+    color: #fff;
+    padding: 20px;
+}
+
+.heading h2 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+.heading p{
+
+}
+
+.ministry-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
